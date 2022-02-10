@@ -184,8 +184,8 @@ function vaciarCarrito(e){
          alert.classList.add('vaciar')
      },2000)
      alert.classList.remove('vaciar')
-    }
-
+     
+}
 function guardarLocalStorage(){
     localStorage.setItem('carrito',JSON.stringify(productoCarrito));
 }
