@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+
+    <!-- Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- BOOTSRAP-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- ALERTIFY JS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+    
+    <!-- Sweet Alert-->
+    <link rel="stylesheet" href="sweetalert2.min.css">
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/car.css" />
+
+    <title>WorldTech</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="header">
+      <div class="navigation">
+        <div class="container">
+          <nav class="nav">
+            <div class="nav__hamburger">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav__logo">
+              <a href="index.html" class="scroll-link">
+                <img src="images/logo-carrito3.png" width="100" />
+              </a>
+            </div>
+            <div class="nav__menu">
+              <div class="menu__top">
+                <span class="nav__category">WorldTech</span>
+                <a href="#" class="close__toggle">
+                  <i class="fas fa-times"></i>
+                </a>
+              </div>
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#header" class="nav__link scroll-link">Inicio</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#category" class="nav__link scroll-link">Productos</a >
+                </li>
+                <li class="nav__item">
+                  <a href="#contact" class="nav__link scroll-link" >Contactanos</a >
+                </li>
+              </ul>
+            </div>
+            <div class="nav__icons">
+              <a href="cart.html" class="icon__item">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <a href="login.html" class="icon__item">
+                <i class="fas fa-user"></i>
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- Hero -->
+      <div class="hero">
+        <div class="glide" id="glide_1">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="hero__center">
+                  <div class="hero__left">
+                    <span>Nuevas inspiraciones 2021</span>
+                    <h1>HARDWARE HECHO PARA TI!</h1>
+                    <p>Tendencias de hardware y accesorios coleccionables</p>
+                    <a href="#"
+                      ><button class="hero__btn">COMPRAR AHORA</button></a
+                    >
+                  </div>
+                  <div class="hero__right">
+                    <div class="hero__img-container">
+                      <img
+                        class="banner_01"
+                        src="./images/banner_01.png"
+                        alt="banner1"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="hero__center">
+                  <div class="hero__left">
+                    <span>Las nuevas RTX de NVIDIA</span>
+                    <h1>HARDWARE HECHO PARA TI!</h1>
+                    <p>Tendencias de hardware y accesorios coleccionables</p>
+                    <a href="product.html"
+                      ><button class="hero__btn">COMPRAR AHORA</button></a
+                    >
+                  </div>
+                  <div class="hero__right">
+                    <img
+                      class="banner_02"
+                      src="./images/banner2.png"
+                      alt="banner2"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="hero__center">
+                  <div class="hero__left">
+                    <span>Nuevas inspiraciones 2021</span>
+                    <h1>HARDWARE HECHO PARA TI!</h1>
+                    <p>Tendencias de hardware y accesorios coleccionables</p>
+                    <a href="#"
+                      ><button class="hero__btn">COMPRAR AHORA</button></a
+                    >
+                  </div>
+                  <div class="hero__right">
+                    <div class="hero__img-container">
+                      <img
+                        class="banner_03"
+                        src="./images/banner3.png"
+                        alt="banner3"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="hero__center">
+                  <div class="hero__left">
+                    <span>Nuevas inspiraciones 2021</span>
+                    <h1>HARDWARE HECHO PARA TI!</h1>
+                    <p>Tendencias de hardware y accesorios coleccionables</p>
+                    <a href="#"
+                      ><button class="hero__btn">COMPRAR AHORA</button></a
+                    >
+                  </div>
+                  <div class="hero__right">
+                    <div class="hero__img-container">
+                      <img
+                        class="banner_04"
+                        src="./images/banner4.png"
+                        alt="banner4"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="hero__center">
+                  <div class="hero__left">
+                    <span>Nuevas inspiraciones 2021</span>
+                    <h1>HARDWARE HECHO PARA TI!</h1>
+                    <p>Tendencias de hardware y accesorios coleccionables</p>
+                    <a href="#"
+                      ><button class="hero__btn">COMPRAR AHORA</button></a
+                    >
+                  </div>
+                  <div class="hero__right">
+                    <div class="hero__img-container">
+                      <img
+                        class="banner_05"
+                        src="./images/banner5.png"
+                        alt="banner5"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+            <button class="glide__bullet" data-glide-dir="=2"></button>
+            <button class="glide__bullet" data-glide-dir="=3"></button>
+          </div>
+          <!-- START ARROWS BANNER -->
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <i class="fas fa-arrow-left"></i>
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+          <!-- END ARROWS BANER -->
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Main -->
+    <main id="main">
+      <!-- Collection -->
+      <section id="collection" class="section collection">
+        <div
+          class="collection__container"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
+          <div class="collection__box">
+            <div class="img__container">
+              <img
+                class="collection_02"
+                src="./images/collection_02.png"
+                alt="collection_02"
+              />
+            </div>
+            <div class="collection__content">
+              <div class="collection__data">
+                <span>Nuevos productos introducidos</span>
+                <h1>TARJETAS DE VIDEOS RTX</h1>
+                <a href="#">COMPRAR AHORA</a>
+              </div>
+            </div>
+          </div>
+          <div class="collection__box">
+            <div class="img__container">
+              <img
+                class="collection_01"
+                src="./images/collection_01.png"
+                alt=""
+              />
+            </div>
+            <div class="collection__content">
+              <div class="collection__data">
+                <span>NUEVOS ACCESORIOS AGREGADOS</span>
+                <h1>COMPONENTES</h1>
+                <a href="#">COMPRAR AHORA</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="category__section section" id="category">
+        <div class="tab__list">
+          <div class="title__container tabs">
+            <div class="section__titles category__titles">
+              <div
+                class="section__title filter-btn active"
+                data-id="All Products"
+              >
+                <span class="dot"></span>
+                <h1 class="primary__title">Todos los productos</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="lista-producto" class="category__container" data-aos="fade-up"  data-aos-duration="1200" >
+          <div class="category__center">
+            <div class="container">
+              <div class="product category__products">
+                <div class="product__header">
+                  <img src="images/TARJ. video5.png" alt="product" />
+                </div>
+                <div class="product__footer">
+                  <h3>RTX GEFORCE 3060</h3>
+                  <div class="product__price">
+                    <p>S/1599.00</p>
+                  </div>
+                  <a href="#" class="product__btn agregar-carrito" data-id="1"
+                    >Agregar al carrito</a
+                  >
+                  <a href="#" class="product__btn detalle">Detalles</a>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="product category__products">
+                <div class="product__header">
+                  <img src="images/LOGICTECH G425.jpg" alt="product" />
+                </div>
+                <div class="product__footer">
+                  <h3>LOGICTECH G425</h3>
+                  <div class="product__price">
+                    <p>S/199.00</p>
+                  </div>
+                  <a href="#" class="product__btn agregar-carrito" data-id="2"
+                    >Agregar al carrito</a
+                  >
+                  <a href="#" class="product__btn">Detalles</a>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="product category__products">
+                <div class="product__header">
+                  <img src="images/TARJ. video1.png" alt="product" />
+                </div>
+                <div class="product__footer">
+                  <h3>RTX GEFORCE 2080</h3>
+                  <div class="product__price">
+                    <p>S/699.00</p>
+                  </div>
+                  <a href="#" class="product__btn agregar-carrito" data-id="3"
+                    >Agregar al carrito</a
+                  >
+                  <a href="#" class="product__btn">Detalles</a>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="product category__products">
+                <div class="product__header">
+                  <img src="images/Razer Kraken X.jpg" alt="product" />
+                </div>
+                <div class="product__footer">
+                  <h3>Razer Kraken X</h3>
+                  <div class="product__price">
+                    <p>S/199.00</p>
+                  </div>
+                  <a href="#" class="product__btn agregar-carrito" data-id="4"
+                    >Agregar al carrito</a
+                  >
+                  <a href="#" class="product__btn">Detalles</a>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="product category__products">
+                <div class="product__header">
+                  <img src="images/RADEON MAXSUN RX550.jpg" alt="product" />
+                </div>
+                <div class="product__footer">
+                  <h3>RADEON MAXSUN RX550</h3>
+                  <div class="product__price">
+                    <p>S/1299.00</p>
+                  </div>
+                  <a href="#" class="product__btn agregar-carrito" data-id="5"
+                    >Agregar al carrito</a
+                  >
+                  <a href="#" class="product__btn">Detalles</a>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="product category__products">
+                <div class="product__header">
+                  <img src="images/LOGITECH G335.jpg" alt="product" />
+                </div>
+                <div class="product__footer">
+                  <h3>LOGITECH G335</h3>
+                  <div class="product__price">
+                    <p>S/129.00</p>
+                  </div>
+                  <a href="#" class="product__btn agregar-carrito" data-id="6"
+                    >Agregar al carrito</a
+                  >
+                  <a href="#" class="product__btn">Detalles</a>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="product category__products">
+                <div class="product__header">
+                  <img src="images/teclado2.png" alt="product" />
+                </div>
+                <div class="product__footer">
+                  <h3>TECLADO RED DRAGON</h3>
+                  <div class="product__price">
+                    <p>S/40.00</p>
+                  </div>
+                  <a href="#" class="product__btn agregar-carrito" data-id="7"
+                    >Agregar al carrito</a
+                  >
+                  <a href="#" class="product__btn">Detalles</a>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="product category__products">
+                <div class="product__header">
+                  <img src="images/Procesador3.png" alt="product" />
+                </div>
+                <div class="product__footer">
+                  <h3>CORE I3 10TH GENERATION</h3>
+                  <div class="product__price">
+                    <p>S/1099.00</p>
+                  </div>
+                  <a href="#" class="product__btn agregar-carrito" data-id="8"
+                    >Agregar al carrito</a
+                  >
+                  <a href="#" class="product__btn">Detalles</a>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="product category__products">
+                <div class="product__header">
+                  <img src="images/Procesador1.png" alt="product" />
+                </div>
+                <div class="product__footer">
+                  <h3>RYZEN 5 4000G</h3>
+                  <div class="product__price">
+                    <p>S/1200.00</p>
+                  </div>
+                  <a href="#" class="product__btn agregar-carrito" data-id="9"
+                    >Agregar al carrito</a
+                  >
+                  <a href="#" class="product__btn">Detalles</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Facility Section -->
+      <section class="section cart__area">
+        <div class="container">
+          <div class="responsive__cart-area">
+            <div id="carrito">
+              <table id="lista-carrito" class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">PRODUCTO</th>
+                    <th scope="col">DESCRIPCIÓN</th>
+                    <th scope="col">PRECIO</th>
+                    <th scope="col">CANTIDAD</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+                <tr></tr>
+              </table>
+            </div>
+            <div class="cart__precio">
+              <p>SUBTOTAL: <span id="cart-total">S/0.00</span></p>
+              <p>IGV%: <span id="cart-igv">S/0.00</span></p>
+            </div>
+            <!--STAR ALERT-->
+            <div class="alert alert-success alert-dismissible fade show alerta-success hide" role="alert" >
+              Producto añadido al carrito de compras.
+              <button type="button" class="btn-close m-1" data-bs-dismiss="alert" aria-label="Close" ></button>
+            </div>
+            <div class="alert alert-danger alerta-success alert-dismissible fade show delete" role="alert" >
+              Producto eliminado del carrito de compras.
+              <button type="button" class="btn-close m-1" data-bs-dismiss="alert" aria-label="Close" ></button>
+            </div>
+            <div class="alert alert-danger alerta-success alert-dismissible fade show vaciar" role="alert" >
+              Todos los productos fueron eliminados.
+              <button type="button" class="btn-close m-1" data-bs-dismiss="alert" aria-label="Close" ></button>
+            </div>
+            <!--END ALERT-->
+            
+          </div>
+          <div class="cart-btns">
+            <div class="continue__shopping">
+              <a href="#" id="vaciar-carrito">Vaciar Carrito</a>
+            </div>
+           <!-- Modal -->
+            <div class="cart__shopping">
+              <a href="#" class="button-buy" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                realizar compra
+              </a>
+            </div>
+          </div>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" id="modal-container">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title m-4" id="exampleModalLabel">
+                    Realizar Pago de Productos
+                  </h2>
+                  <button type="button" class="btn-close m-3" data-bs-dismiss="modal" aria-label="Close" ></button>
+                </div>
+                <div class="modal-body m-4" id="cart-totals">
+                  <form action="#" id="form-cart">
+                    <div class="payment__flex">
+                      <div class="pay__box">
+                        <label for="pagar">Precio total a pagar:</label>
+                        <input class="input" type="text" id="pagar" value="S/0.00" name="pagar" disabled />
+                      </div>
+                      <div class="pay__box">
+                        <label for="cantidad"> Cantidad de productos: </label>
+                        <input class="input" type="text" id="cantidad" value="0"  name="nombre" disabled />
+                      </div>
+                      <div class="pay__box">
+                        <label for="nombre">Nombre completos:</label>
+                        <input type="text" class="input" id="nombre" name="nombre" placeholder="Ingrese su nombre completo"
+                        />
+                      </div>
+                      <div class="pay__box">
+                        <label for="email">Ingresar Correo:</label>
+                        <input type="email" class="input" id="email" name="email" placeholder="Ingrese correo electronico" />
+                      </div>
+                    </div>
+                    <div class="spinner" id="spinner">
+                      <div class="sk-chase">
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn-buy" data-bs-dismiss="modal" id="btn-comprando">
+                    Seguir comprando
+                  </button>
+                  <button type="submit" class="button" id="btn-comprar"> Pagar</button>
+                </div>
+              </div>
+            </div>   
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End Main -->
+    <!-- Footer -->
+    <footer id="footer" class="section footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer-top__box">
+            <h3>INFORMACIÓN</h3>
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Politica de privacidad</a>
+            <a href="#">Terminos & condiciones</a>
+            <a href="#">Contactanos</a>
+            <a href="#">Mapa de sitio</a>
+          </div>
+          <div class="footer-top__box">
+            <h3>TE AYUDAMOS</h3>
+            <a href="#">Seguimiento de tu pedido</a>
+            <a href="#">Nuevas noticias</a>
+            <a href="#">Returns</a>
+          </div>
+          <div class="footer-top__box">
+            <h3>CONTACT US</h3>
+            <div>
+              <span><i class="fas fa-map-marker-alt"></i></span>
+              Av.sin tu corazon nro #69
+            </div>
+            <div>
+              <span><i class="fas fa-envelope"></i></span>
+              wordltech@gmail.com
+            </div>
+            <div>
+              <span>
+                <i class="fas fa-phone-alt"></i>
+              </span>
+              000-000-000
+            </div>
+            <div>
+              <span>
+                <i class="fas fa-paper-plane"></i>
+              </span>
+              Lima, Perú
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#header" class="goto-top scroll-link">
+      <svg>
+        <use xlink:href="./images/sprite.svg#icon-arrow-up"></use>
+      </svg>
+    </a>
+    <!--FONT AWESOME-->
+    <script
+      src="https://kit.fontawesome.com/802d4ef448.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Glide Carousel Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-- Animate On Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Alertify JS-->
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <!-- Sweet Alert-->
+   <script src="sweetalert2.all.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="js/carrito.js"></script>
+    <script type="text/javascript" src="js/car.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
